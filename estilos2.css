@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kdam+Thmor+Pro&display=swap');
+@font-face{
+    font-family: "Redes";
+    src: url(./fonts/Redes.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;   
+}
+body{
+    background-color: black;
+}
+.logotipo{
+    width: 50px;
+}
+
+#header{
+    background-color: black;
+    
+}
+#header li{
+    color: blanchedalmond;
+}
+h1{
+margin: 0px;
+color: whitesmoke;    
+font-size: 120px;
+line-height: 100px;
+text-align: center;
+font-family: 'Kdam Thmor Pro', sans-serif;
+transition-property: text-shadow;
+transition-duration: 1s;
+transition-delay: ease;
+}
+h1:hover{
+text-shadow: 1px 1px rgba(208, 24, 24, 0.614), 2px 2px rgba(208, 24, 24, 0.614) ,3px 3px rgba(208, 24, 24, 0.614),4px 4px rgb(33, 155, 188),5px 5px rgb(33, 155, 188),6px 6px rgb(33, 155, 188),7px 7px rgb(33, 155, 188),8px 8px rgb(140, 25, 140),9px 9px rgb(140, 25, 140),10px 10px rgb(140, 25, 140),11px 11px rgb(140, 25, 140),12px 12px rgb(140, 25, 140);
+}
+h3{
+    margin: 0px;
+    padding-top: 4rem;
+    color: blanchedalmond;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    line-height: 100px;
+    text-align: center;
+    vertical-align: middle;
+}
+#navnav{
+    width: 100%;
+}
+#principal{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+}
+#logocentro{
+    width: 300px;
+    height: 300px;
+    transition: linear .2s;
+    border: solid whitesmoke 2px;
+}
+#logocentro:hover{
+    border-radius: 50%;
+    transition: all .2s ease-out;
+    transform: rotate(360deg);
+}
+.descripción, .quiensoy{
+    display: inline-block;
+}
+#informacion, #yo{
+    display: inline-block;
+}
+
+#informacion{
+    width: 45%;
+    background: rgba(255, 255, 255,.15);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135, .37);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    
+    color: black;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+    margin-bottom: 50px; 
+}
+
+
+
+#serv{
+    background: rgba(255, 255, 255,.15);
+    box-shadow: 0 8px 32px 0 rgba(31,38,135, .15);
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    float: left;
+}
+.servicios{
+    overflow: hidden;
+    background: url(http://placeimg.com/1920/1080/tech) no-repeat fixed;
+}
+#imagen{
+    float: right;
+}
+#imagen,#si{
+    display: inline-block;
+}
+#vivi,#mover{
+    display: inline-block;
+}
+.redes{
+    font-family: "Redes";
+    src: url(./fonts/Redes.ttf);
+    display: inline-block;
+    text-decoration: none;
+    font-size: 50px;
+}
+span a{
+    display: block;
+    text-decoration: none;
+    color: blanchedalmond;
+}
